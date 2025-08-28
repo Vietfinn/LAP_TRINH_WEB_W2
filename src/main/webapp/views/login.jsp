@@ -70,7 +70,7 @@
         </form>
 
         <p>
-            Not registered? <a href="register.jsp">Create an account</a>
+            Not registered? <a href="${pageContext.request.contextPath}/views/user/register.jsp">Create an account</a>
         </p>
 
         <!-- Hiển thị alert message -->

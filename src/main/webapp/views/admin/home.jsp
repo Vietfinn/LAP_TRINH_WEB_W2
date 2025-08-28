@@ -29,7 +29,8 @@
                         <a class="nav-link" href="order-list.jsp">Quản lý Đơn hàng</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-danger" href="logout">Đăng xuất</a>
+                        <a class="nav-link text-danger" href="${pageContext.request.contextPath}/logout">Đăng xuất</a>
+
                     </li>
                 </ul>
             </div>

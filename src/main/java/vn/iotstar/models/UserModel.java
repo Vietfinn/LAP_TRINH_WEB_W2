@@ -9,9 +9,9 @@ public class UserModel implements Serializable {
 	private int id;
 	private String username;
 	private String email;
-	private String password;
 	private String fullname;
 	private String images;
+	private String password;
 	private String phone;
 	private int roleid;
 	private Date createDate;
@@ -26,9 +26,9 @@ public class UserModel implements Serializable {
 		this.id = id;
 		this.username = username;
 		this.email = email;
-		this.password = password;
 		this.fullname = fullname;
 		this.images = images;
+		this.password = password;
 		this.phone = phone;
 		this.roleid = roleid;
 		this.createDate = createDate;
